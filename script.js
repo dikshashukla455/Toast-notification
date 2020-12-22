@@ -10,7 +10,7 @@ function createnotification() {
     container.appendChild(notify);
     setTimeout(() => {
         notify.remove();
-    },4000);
+    },6000);
 }
 const Text=document.getElementById("Text");
 const text="Click on this button and you will get notifications.I know this is crazy but still XD.";
